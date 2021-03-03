@@ -1,0 +1,24 @@
+h1:hover { 
+    background: orange;
+  }
+  
+  //permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer
+  
+  button:hover {
+    color: red;
+  }
+  
+  input:focus{
+    background-color: teal;
+  }
+  button:focus {
+    background-color: yellow;
+  }
+  
+  button:active{
+    font-size: 50px;
+    background: pink;
+  }
+  h1:active, p:active{
+    color: red;
+  }
