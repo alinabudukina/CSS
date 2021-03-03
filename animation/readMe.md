@@ -1,3 +1,4 @@
+pseudo-classes
 
 button:hover {
   color: red;
