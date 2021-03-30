@@ -99,7 +99,7 @@ main h2{
 
 /* Les medias queries pour faire du responsive design. */
 /* Max-width = desktop-first */
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   header {
     height: 50vh;
     font-size: 0.8em;
