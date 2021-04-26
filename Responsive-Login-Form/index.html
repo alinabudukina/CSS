@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animated Login Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- La balise meta name= "viewport" va permettre de donner des instructions relatives à la taille et à l’échelle du viewport aux navigateurs mobiles afin que les différents éléments d’une page s’affichent au mieux. -->
+  </head>
+  <body>
+    <!-- le fond d'ecran -->
+    <img class="wave" src="img/wave-new.PNG" />
+    <div class="container">
+      <div class="img">
+        <img src="img/bg-new.svg" />
+      </div>
+      <div class="login-content">
+        <!-- Cet élément définit un formulaire-->
+        <form action="index.html">
+          <img src="img/avatar-new.svg" />
+          <h2 class="title">Welcome</h2>
+
+          <!-- Username -->
+          <div class="input-div one">
+            <!-- un morceau de texte qui se différencie du texte principal -->
+            <div class="i">
+              <!-- logo -->
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="div">
+              <h5>Username</h5>
+              <input type="text" class="input" />
+            </div>
+          </div>
+
+          <!-- password -->
+          <div class="input-div pass">
+            <div class="i">
+              <!-- serrure -->
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+              <h5>Password</h5>
+              <!-- pour créer des champs de saisie avec du texte sur une seule ligne. -->
+              <input type="password" class="input" />
+            </div>
+          </div>
+          <a href="#">Forgot Password?</a>
+
+          <!-- button -->
+          <input type="submit" class="btn" value="Login" />
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
